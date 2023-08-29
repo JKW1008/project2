@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>피트파트너</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/service.css" />
+  </head>
+  <body>
+    <header class="content">
+      <nav>
+        <div>
+          <img src="./images/logo.png" alt="로고" />
+        </div>
+        <ul>
+          <li>서비스 소개</li>
+          <li>입점문의</li>
+          <li>고객센터</li>
+          <li>회사소개</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- 메인 이미지 -->
+      <article class="mainImg">
+        <div class="textBox">
+          <h1>Fit Partner</h1>
+          <p>항상 고객님의 소리를 듣고있습니다.</p>
+        </div>
+      </article>
+      <!-- 자주하는질문, 공지사항 -->
+      <section class="contents_bg content">
+        <div id="class_wrapper" class="contents">
+          <div class="wrapper" id="class_tab">
+            <input
+              id="class_1"
+              type="radio"
+              name="class_tap"
+              checked="checked"
+            />
+            <input id="class_2" type="radio" name="class_tap" />
+
+            <section class="class_buttons">
+              <label for="class_1">
+                <h1>자주 묻는 질문</h1>
+              </label>
+              <label for="class_2">
+                <h1>공지사항</h1>
+              </label>
+            </section>
+            <!-- 페이지 -->
+            <div class="class_tab_item">
+              <!-- 아코디언 -->
+              <div class="area">
+                <button class="accordion">
+                  센터운영중인데 핏트파트너에 입점하고싶습니다.
+                </button>
+                <div class="panel">
+                  <p>내용 1</p>
+                </div>
+
+                <button class="accordion">메뉴 2</button>
+                <div class="panel">
+                  <p>내용 2</p>
+                </div>
+
+                <button class="accordion">메뉴 3</button>
+                <div class="panel">
+                  <p>내용 3</p>
+                </div>
+              </div>
+            </div>
+            <div class="class_tab_item">2</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 아코디언 동작 -->
+    <script defer>
+      //아코디언 클릭 이벤트 정의
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,10 +1,33 @@
 main {
   max-width: 1440px;
   margin: 0 auto;
+}
+.section1 {
   display: flex;
   justify-content: space-between;
+  padding-left: 5%;
+}
+.section1 div {
+  text-align: center;
+  padding-top: 15%;
+}
+.section1 div strong {
+  /* 128px => 8em */
+  font-size: 8em;
+  font-weight: 700;
+  background: linear-gradient(155deg, #0cc7d3 0%, #0c50b5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section1 div span {
+  font-size: 4em;
+  font-weight: 700;
+}
+.section1 div h2 {
+  font-size: 4em;
 }
 
-main img {
+.section1 img {
   width: 50%;
 }

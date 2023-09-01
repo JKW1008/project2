@@ -1,5 +1,5 @@
 /* 메인이미지 */
-.mainImg {
+.serviseMainImg {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -8,7 +8,7 @@
   background-position: center;
 }
 
-.mainImg .textBox {
+.serviseMainImg .textBox {
   position: absolute;
   top: 80%;
   right: 30%;
@@ -167,8 +167,34 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 2rem;
+  padding: 50px 0 150px 0;
+}
+.contact > div {
+  padding: 25px 0;
+}
+.contact .contact_text1 {
+  font-size: 2rem;
+}
+.contact .contact_text1 h1 {
+  font-size: 2rem;
+}
+.contact .contact_text1 div {
+  padding: 50px 0;
 }
 .contact .contact_img {
   display: flex;
   justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+.contact .contact_img img {
+  width: 50%;
+}
+.contact .contact_img p {
+  font-weight: bold;
+  padding-top: 35px;
+}
+.contact .contact_text2 h1 {
+  font-size: 2rem;
 }

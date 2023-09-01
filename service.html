@@ -6,6 +6,10 @@
     <title>피트파트너</title>
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/service.css" />
+    <!-- wow CSS -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- wow js -->
+    <script src="./js/wow.min.js"></script>
   </head>
   <body>
     <!-- 헤더 -->
@@ -131,19 +135,32 @@
                 </div>
                 <div class="contact_img">
                   <div>
-                    <img src="./images/service/kakao.png" alt="" />
+                    <img
+                      class="wow rollIn"
+                      src="./images/service/kakao.png"
+                      alt=""
+                    />
                     <p>카톡 문의</p>
                   </div>
                   <div>
-                    <img src="./images/service/email.png" alt="" />
+                    <img
+                      class="wow flip"
+                      data-wow-duration="0.9s"
+                      src="./images/service/email.png"
+                      alt=""
+                    />
                     <p>이메일 문의</p>
                   </div>
                   <div>
-                    <img src="./images/service/phone1.png" alt="" />
+                    <img
+                      class="wow rollInRight"
+                      src="./images/service/phone1.png"
+                      alt=""
+                    />
                     <p>전화 문의</p>
                   </div>
                 </div>
-                <div class="contact_text2">
+                <div class="contact_text2 wow bounceInUp">
                   <h1>고객센터 운영시간</h1>
                   <p>평일 오전 10:00 ~ 오후 5:00</p>
                   <p>(점심시간 : 오후 12시 ~ 오후1:30)</p>
@@ -225,19 +242,32 @@
                 </div>
                 <div class="contact_img">
                   <div>
-                    <img src="./images/service/kakao.png" alt="" />
+                    <img
+                      class="wow rollIn"
+                      src="./images/service/kakao.png"
+                      alt=""
+                    />
                     <p>카톡 문의</p>
                   </div>
                   <div>
-                    <img src="./images/service/email.png" alt="" />
+                    <img
+                      class="wow flip"
+                      data-wow-duration="0.9s"
+                      src="./images/service/email.png"
+                      alt=""
+                    />
                     <p>이메일 문의</p>
                   </div>
                   <div>
-                    <img src="./images/service/phone1.png" alt="" />
+                    <img
+                      class="wow rollInRight"
+                      src="./images/service/phone1.png"
+                      alt=""
+                    />
                     <p>전화 문의</p>
                   </div>
                 </div>
-                <div class="contact_text2">
+                <div class="contact_text2 wow bounceInUp">
                   <h1>고객센터 운영시간</h1>
                   <p>평일 오전 10:00 ~ 오후 5:00</p>
                   <p>(점심시간 : 오후 12시 ~ 오후1:30)</p>
@@ -297,6 +327,7 @@
           }
         });
       }
+      new WOW().init();
     </script>
   </body>
 </html>

@@ -12,8 +12,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/becomeAvailable.css" />
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </head>
   <body>
     <!-- 헤더 -->
@@ -45,7 +49,7 @@
     <!-- main -->
     <main>
       <div class="becomeMainImg">
-        <div class="formwrap">
+        <div class="formwrap" data-aos="zoom-in-up">
           <form action="" method="post">
             <h4>무료 입점상담</h4>
             <div>
@@ -154,6 +158,7 @@
         // 동의가 되어있다면, 제출 허용.
         return true;
       }
+      AOS.init();
     </script>
   </body>
 </html>

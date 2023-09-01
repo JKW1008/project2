@@ -36,7 +36,7 @@ header {
   justify-content: space-between;
 }
 
-.container img {
+.container a img {
   width: 20%;
   height: 70%;
   margin-top: 16px;

@@ -52,3 +52,38 @@ main {
 .section1 img {
   width: 50%;
 }
+
+/* section2 */
+.section2 {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #265cac;
+  color: white;
+  height: 100vh;
+}
+.section2_item1 {
+  text-align: center;
+  padding: 5%;
+}
+.section2_item1 strong {
+  background: linear-gradient(106deg, #0cc7d3 29.83%, #0c50b5 61.98%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 8em;
+}
+.section2_item1 span,
+h2 {
+  font-size: 3em;
+}
+.section2_item2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.section2_item2 img {
+  width: 80%;
+}
+.section2_item2 h1 {
+  font-size: 2em;
+}

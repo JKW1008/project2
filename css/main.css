@@ -148,7 +148,7 @@ h2 {
 }
 
 /* 모바일 */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 768px) {
   .section_inner {
     display: flex;
     flex-direction: column;

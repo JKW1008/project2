@@ -152,7 +152,7 @@ a {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   .container img {
     width: 40%;
   }

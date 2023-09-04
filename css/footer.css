@@ -31,7 +31,7 @@ footer {
 }
 
 /* 모바일 */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   .footer_container {
     max-width: 320px;
   }

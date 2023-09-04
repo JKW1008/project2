@@ -41,7 +41,8 @@
   font-weight: 700;
   border: 2px solid transparent;
   border-radius: 20px;
-  background-image: linear-gradient(#fff, #fff), linear-gradient(to right, #0cc7d3 0%, #0cc7d3 29%, #3481f2 67%, #3481f2 100%);
+  background-image: linear-gradient(#fff, #fff), linear-gradient(to left, #0cc7d3 0%, #0cc7d3 29%, #3481f2 67%, #3481f2 100%);
+  background-origin: border-box;
   background-clip: content-box, border-box;
   cursor: pointer;
 }
@@ -132,7 +133,6 @@ h2 {
 
 /* ----------section4---------- */
 .section4 {
-  border-top: 1px solid #000;
   padding: 80px 0;
 }
 .section4 .pc_img {

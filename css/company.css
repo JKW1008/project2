@@ -113,6 +113,12 @@
   font-size: 1.7em;
   color: #484848;
 }
+
+/* ----------section4---------- */
+#map {
+  height: 600px;
+}
+
 @media screen and (max-width: 1440px) {
   .wrapper {
     width: 90%;
@@ -194,5 +200,14 @@
   }
   .section3_item div p {
     font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section3_item div p {
+    font-size: 1em;
+  }
+  .section3_item {
+    margin-bottom: 2rem;
   }
 }

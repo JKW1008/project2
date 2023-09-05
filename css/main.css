@@ -146,10 +146,10 @@ h2 {
 }
 .section4_text {
   text-align: center;
-  padding-right: 5%;
+  margin-right: 10%;
 }
 .section4_text h4 {
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 700;
   margin-bottom: 10%;
 }
@@ -181,6 +181,12 @@ h2 {
 }
 
 @media screen and (max-width: 1100px) {
+  .section4_text {
+    margin-right: 7%;
+  }
+  .section4_text h4 {
+    font-size: 2.4em;
+  }
 }
 @media screen and (max-width: 768px) {
   .section_inner {

@@ -1,4 +1,6 @@
 /* PC버전 */
+
+/* ----------section1---------- */
 .section_container {
   max-width: 1440px;
   width: 100%;
@@ -10,7 +12,6 @@
   align-items: center;
   padding-left: 5%;
 }
-
 .section1 article {
   text-align: center;
   padding-top: 10%;
@@ -41,21 +42,13 @@
   font-weight: 700;
   border: 2px solid transparent;
   border-radius: 20px;
-  background-image: linear-gradient(#fff, #fff),
-    linear-gradient(155deg, #0c50b5 0%, #0cc7d3 100%);
-
+  background-image: linear-gradient(#fff, #fff), linear-gradient(155deg, #0c50b5 0%, #0cc7d3 100%);
   background-origin: border-box;
   background-clip: content-box, border-box;
   cursor: pointer;
 }
 .section1_btn button:hover {
-  background-image: linear-gradient(
-    to right,
-    #0cc7d3 0%,
-    #0cc7d3 29%,
-    #3481f2 67%,
-    #3481f2 100%
-  );
+  background-image: linear-gradient(to right, #0cc7d3 0%, #0cc7d3 29%, #3481f2 67%, #3481f2 100%);
 }
 .section1_btn button h1 {
   padding: 10px;
@@ -66,7 +59,6 @@
 }
 
 .section1_btn button h1:hover {
-  /* rgba(52, 133, 241, 1), rgba(12, 199, 211, 1) */
   background: linear-gradient(94deg, #ffff 0%, #ffff 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -120,6 +112,7 @@ h2 {
 /* ----------section3---------- */
 .section3 {
   margin: 80px 0;
+  width: 100%;
 }
 .section3_text {
   text-align: center;
@@ -145,7 +138,7 @@ h2 {
 
 /* ----------section4---------- */
 .section4 {
-  padding: 80px 0;
+  margin: 80px 0;
 }
 .section4 .pc_img {
   width: 45%;
@@ -156,18 +149,39 @@ h2 {
   padding-right: 5%;
 }
 .section4_text h4 {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 700;
   margin-bottom: 10%;
+}
+.section4_text h4 span {
+  font-size: 1.3em;
+  background: linear-gradient(94deg, #0cc7d3 0%, #3582f2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .section4_text .mobile_img {
   display: none;
 }
 .section4_text p {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
-/* 모바일 */
+/* ----------media query---------- */
+@media screen and (max-width: 1239px) {
+  .section3_text strong {
+    font-size: 2.7em;
+  }
+  .section3_text h3 {
+    font-size: 4em;
+  }
+  .section3_text p {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+}
 @media screen and (max-width: 768px) {
   .section_inner {
     display: flex;
@@ -190,7 +204,6 @@ h2 {
     position: absolute;
     width: 100%;
     bottom: 1%;
-    /* background: white; */
   }
   .section1 img {
     width: 100%;
@@ -220,7 +233,7 @@ h2 {
 
   /* ----------section3---------- */
   .section3_text {
-    font-size: 0.6em;
+    font-size: 1.2em;
   }
   .section3 img {
     width: 100%;

@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/becomeAvailable.css" />
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <!-- aos js -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </head>
@@ -28,10 +31,10 @@
         /></a>
         <nav class="navMenu">
           <ul>
-            <li><a href="/index.html">서비스센터</a></li>
-            <li><a href="./becomeAvailable.html">입점문의</a></li>
-            <li><a href="./service.html">고객센터</a></li>
-            <li><a href="">회사문의</a></li>
+            <a href="./index.html"><li>서비스센터</li></a>
+            <a href="./becomeAvailable.html"><li>입점문의</li></a>
+            <a href="./service.html"><li>고객센터</li></a>
+            <a href="#"><li>회사문의</li></a>
           </ul>
         </nav>
         <div class="menutoggle">
@@ -41,7 +44,17 @@
             <span></span>
             <span></span>
           </label>
-          <div class="sidebar"></div>
+          <div class="sidebar">
+            <div class="logo">
+              <p>Fit Partner</p>
+            </div>
+            <ul>
+              <a href="./index.html"><li>서비스센터</li></a>
+              <a href="./becomeAvailable.html"><li>입점문의</li></a>
+              <a href="./service.html"><li>고객센터</li></a>
+              <a href="#"><li>회사문의</li></a>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -62,6 +75,7 @@
               <input
                 type="text"
                 name="name"
+                class="input_check_error"
                 placeholder="업체명을 입력해주세요"
               />
               <i class="fa-solid fa-address-card"></i>
@@ -70,6 +84,7 @@
               <input
                 type="text"
                 name="zipcode"
+                class="input_check_error"
                 placeholder="업체 주소지를 입력해주세요"
               />
               <i class="fa-solid fa-building"></i>
@@ -78,6 +93,7 @@
               <input
                 type="email"
                 name="email"
+                class="input_check_error"
                 placeholder="이메일을 입력해주세요"
               />
               <i class="fa-solid fa-envelope"></i>
@@ -85,6 +101,7 @@
             <div>
               <input
                 type="text"
+                class="input_check_error"
                 name="phone"
                 placeholder="전화번호를 입력해주세요"
               />
@@ -93,7 +110,7 @@
             <div>
               <textarea
                 name="textBox"
-                id=""
+                class="input_check_error"
                 cols="10"
                 rows="300"
                 placeholder="문의 내용을 입력해주세요"
@@ -106,7 +123,7 @@
               </label>
             </div>
             <div>
-              <button onclick="return checkTermsAndSubmit()">
+              <button id="btnSubmit" onclick="return checkTermsAndSubmit()">
                 입점문의하기
               </button>
             </div>
@@ -160,11 +177,34 @@
           alert("개인정보 수집 및 정보이용에 동의해주세요.");
           return false; // submit 디나이 시킴.
         }
+        // else {
+        //   var $chk = document.querySelectorAll(".input_check_error");
 
-        // 동의가 되어있다면, 제출 허용.
+        //   elements.forEach(function (element) {
+        //     if (element.classList.contains("error")) {
+        //       return false;
+        //     } else {
+        //       // 동의가 되어있다면, 제출 허용.
+        //       return false;
+        //     }
+        //   });
         return true;
+        // }
       }
       AOS.init();
     </script>
+    <!-- <script>
+      let $btnSubmit = $("#btnSubmit");
+      let $check = $(".input_check_error");
+
+      $btnSubmit.click(function () {
+        $check.each(function () {
+          let $value = $(this).val();
+          if (!$value) {
+            $(this).addClass("error");
+          }
+        });
+      });
+    </script> -->
   </body>
 </html>

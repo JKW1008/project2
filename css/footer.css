@@ -29,12 +29,9 @@ footer {
   display: flex;
   gap: 30px;
 }
-.footer_itemBox2 .footer_item2 img:nth-child(1) {
-  border-radius: 13px;
-}
 
 /* 모바일 */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 430px) {
   .footer_container {
     max-width: 320px;
   }

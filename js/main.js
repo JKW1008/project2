@@ -3,9 +3,6 @@ $(function () {
     //options here
     autoScrolling: true,
     scrollHorizontally: true,
-<<<<<<< HEAD
     responsiveWidth: 768,
-=======
->>>>>>> main
   });
 });

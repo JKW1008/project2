@@ -1,9 +1,6 @@
 /* PC버전 */
-<<<<<<< HEAD
 
 /* ----------section1---------- */
-=======
->>>>>>> main
 .section_container {
   max-width: 1440px;
   width: 100%;
@@ -13,13 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
 }
-=======
-  padding-left: 5%;
-}
-
->>>>>>> main
 .section1 article {
   text-align: center;
   padding-top: 10%;
@@ -50,29 +41,13 @@
   font-weight: 700;
   border: 2px solid transparent;
   border-radius: 20px;
-<<<<<<< HEAD
   background-image: linear-gradient(#fff, #fff), linear-gradient(155deg, #0c50b5 0%, #0cc7d3 100%);
-=======
-  background-image: linear-gradient(#fff, #fff),
-    linear-gradient(155deg, #0c50b5 0%, #0cc7d3 100%);
-
->>>>>>> main
   background-origin: border-box;
   background-clip: content-box, border-box;
   cursor: pointer;
 }
 .section1_btn button:hover {
-<<<<<<< HEAD
   background-image: linear-gradient(to right, #0cc7d3 0%, #0cc7d3 29%, #3481f2 67%, #3481f2 100%);
-=======
-  background-image: linear-gradient(
-    to right,
-    #0cc7d3 0%,
-    #0cc7d3 29%,
-    #3481f2 67%,
-    #3481f2 100%
-  );
->>>>>>> main
 }
 .section1_btn button h1 {
   padding: 10px;
@@ -83,10 +58,6 @@
 }
 
 .section1_btn button h1:hover {
-<<<<<<< HEAD
-=======
-  /* rgba(52, 133, 241, 1), rgba(12, 199, 211, 1) */
->>>>>>> main
   background: linear-gradient(94deg, #ffff 0%, #ffff 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -140,10 +111,7 @@ h2 {
 /* ----------section3---------- */
 .section3 {
   margin: 80px 0;
-<<<<<<< HEAD
   width: 100%;
-=======
->>>>>>> main
 }
 .section3_text {
   text-align: center;
@@ -169,11 +137,7 @@ h2 {
 
 /* ----------section4---------- */
 .section4 {
-<<<<<<< HEAD
   margin: 80px 0;
-=======
-  padding: 80px 0;
->>>>>>> main
 }
 .section4 .pc_img {
   width: 45%;
@@ -181,18 +145,13 @@ h2 {
 }
 .section4_text {
   text-align: center;
-<<<<<<< HEAD
   margin-right: 10%;
-=======
-  padding-right: 5%;
->>>>>>> main
 }
 .section4_text h4 {
   font-size: 3em;
   font-weight: 700;
   margin-bottom: 10%;
 }
-<<<<<<< HEAD
 .section4_text h4 span {
   font-size: 1.3em;
   background: linear-gradient(94deg, #0cc7d3 0%, #3582f2 100%);
@@ -200,13 +159,10 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-=======
->>>>>>> main
 .section4_text .mobile_img {
   display: none;
 }
 .section4_text p {
-<<<<<<< HEAD
   font-size: 2.5em;
 }
 
@@ -351,12 +307,6 @@ h2 {
     font-size: 1.7em;
   }
 }
-=======
-  font-size: 2em;
-}
-
-/* 모바일 */
->>>>>>> main
 @media screen and (max-width: 768px) {
   .section_inner {
     display: flex;
@@ -379,10 +329,6 @@ h2 {
     position: absolute;
     width: 100%;
     bottom: 1%;
-<<<<<<< HEAD
-=======
-    /* background: white; */
->>>>>>> main
   }
   .section1 img {
     width: 100%;
@@ -412,11 +358,7 @@ h2 {
 
   /* ----------section3---------- */
   .section3_text {
-<<<<<<< HEAD
     font-size: 1.2em;
-=======
-    font-size: 0.6em;
->>>>>>> main
   }
   .section3 img {
     width: 100%;
@@ -443,7 +385,6 @@ h2 {
   .section4_text p {
     padding-bottom: 20%;
   }
-<<<<<<< HEAD
 
   /* ----------section5---------- */
   .section5 img {
@@ -461,6 +402,4 @@ h2 {
   .section5_text {
     font-size: 1.5em;
   }
-=======
->>>>>>> main
 }

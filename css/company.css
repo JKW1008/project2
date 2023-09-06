@@ -12,8 +12,17 @@
 #company1_wrapper {
   color: white;
 }
+<<<<<<< HEAD
 .company1_text {
   padding-top: 20%;
+=======
+.company1_title {
+  font-size: 8em;
+  font-weight: 700;
+  padding-top: 10%;
+}
+.company1_text {
+>>>>>>> main
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -22,7 +31,11 @@
   font-size: 3em;
   font-weight: 700;
   color: #0cc7d3;
+<<<<<<< HEAD
   padding: 5% 0;
+=======
+  padding: 3% 0;
+>>>>>>> main
 }
 .company1_text .text {
   font-size: 1.5em;
@@ -80,11 +93,16 @@
 #company3_wrapper {
   margin: 10% 0;
 }
+<<<<<<< HEAD
 .company3_item {
+=======
+.section3_item {
+>>>>>>> main
   display: flex;
   text-align: center;
   align-items: center;
   margin-bottom: 5%;
+<<<<<<< HEAD
 }
 .company3_item:nth-child(2n) {
   margin-left: 7%;
@@ -100,11 +118,33 @@
   margin-left: 7%;
 }
 .company3_item div h1 {
+=======
+  /* border: 1px solid salmon; */
+}
+.section3_item:nth-child(2n) {
+  margin-left: 7%;
+}
+.section3_item:nth-child(2n + 1) {
+  margin-right: 7%;
+}
+.section3_item img {
+  width: 50%;
+}
+.section3_item div {
+  width: 50%;
+  margin-left: 7%;
+}
+.section3_item div h1 {
+>>>>>>> main
   padding-bottom: 7%;
   font-size: 2em;
   color: #ec6300;
 }
+<<<<<<< HEAD
 .company3_item div p {
+=======
+.section3_item div p {
+>>>>>>> main
   font-size: 1.7em;
   color: #484848;
 }
@@ -113,6 +153,7 @@
 #map {
   height: 600px;
 }
+<<<<<<< HEAD
 .company4_box {
   padding: 20px 0 20px 5%;
 }
@@ -128,10 +169,14 @@
 }
 
 /* -------ㅡ media -------- */
+=======
+
+>>>>>>> main
 @media screen and (max-width: 1440px) {
   .wrapper {
     width: 90%;
   }
+<<<<<<< HEAD
   .company1_text {
     padding-top: 30%;
   }
@@ -150,6 +195,28 @@
     font-size: 1.6em;
   }
   .company3_item div p {
+=======
+}
+@media screen and (max-width: 1000px) {
+  .icon_wrapper div p {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section3_item:nth-child(2n) {
+    margin-left: 0;
+  }
+  .section3_item:nth-child(2n + 1) {
+    margin-right: 0;
+  }
+  .section3_item div {
+    margin-left: 3%;
+  }
+  .section3_item div h1 {
+    font-size: 1.6em;
+  }
+  .section3_item div p {
+>>>>>>> main
     font-size: 1.4em;
   }
 }
@@ -193,6 +260,7 @@
     width: 50%;
   }
   /* ----------section3---------- */
+<<<<<<< HEAD
   .company3_item:nth-child(2n) {
     margin-left: 0;
   }
@@ -206,15 +274,37 @@
     font-size: 1.4em;
   }
   .company3_item div p {
+=======
+  .section3_item:nth-child(2n) {
+    margin-left: 0;
+  }
+  .section3_item:nth-child(2n + 1) {
+    margin-right: 0;
+  }
+  .section3_item div {
+    margin-left: 3%;
+  }
+  .section3_item div h1 {
+    font-size: 1.4em;
+  }
+  .section3_item div p {
+>>>>>>> main
     font-size: 1.2em;
   }
 }
 
 @media screen and (max-width: 600px) {
+<<<<<<< HEAD
   .company3_item div p {
     font-size: 1em;
   }
   .company3_item {
+=======
+  .section3_item div p {
+    font-size: 1em;
+  }
+  .section3_item {
+>>>>>>> main
     margin-bottom: 2rem;
   }
 }

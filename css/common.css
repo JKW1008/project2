@@ -1,16 +1,26 @@
 @font-face {
   font-family: "Pretendard-Regular";
+<<<<<<< HEAD
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+=======
   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
     format("woff");
   font-weight: 200;
   font-style: normal;
 }
 
+>>>>>>> main
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
+=======
   /* border: 1px solid black; */
+>>>>>>> main
   font-family: "pretendard-Regular";
 }
 .content {
@@ -18,11 +28,20 @@
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+/* -----------header------------ */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 60px;
+=======
 /* 해더 */
 header {
   display: flex;
   width: 100%;
   height: 90px;
+>>>>>>> main
   background-color: black;
   position: fixed;
   z-index: 22;
@@ -40,11 +59,17 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+<<<<<<< HEAD
+.container img {
+  width: 50%;
+  height: 70%;
+=======
 
 .container img {
   width: 50%;
   height: 70%;
   margin-top: 13px;
+>>>>>>> main
 }
 .container nav {
   width: 70%;
@@ -54,9 +79,13 @@ a {
   justify-content: space-between;
   font-size: 1.3em;
   width: 100%;
+<<<<<<< HEAD
+}
+=======
   /* line-height: 90px; */
 }
 
+>>>>>>> main
 .container nav ul li {
   list-style: none;
   width: 100%;
@@ -67,7 +96,11 @@ a {
   color: #ec6300;
 }
 
+<<<<<<< HEAD
+/*--------toggle-------- */
+=======
 /* 토글메뉴 */
+>>>>>>> main
 .menutoggle {
   display: none;
   margin: 30px 10px;
@@ -116,6 +149,10 @@ a {
   bottom: 50%;
   transform: translateY(50%) rotate(-45deg);
 }
+<<<<<<< HEAD
+/* 사이드박스 */
+=======
+>>>>>>> main
 .sidebar {
   width: 100%;
   height: 100%;
@@ -133,9 +170,13 @@ a {
   position: absolute;
   top: 30px;
   left: 20px;
+<<<<<<< HEAD
+}
+=======
   /* display: none; */
 }
 
+>>>>>>> main
 .sidebar ul {
   margin-top: 150px;
   color: white;
@@ -173,7 +214,12 @@ a {
   }
 }
 
+<<<<<<< HEAD
+/* ----------footer---------- */
+
+=======
 /* 푸터 */
+>>>>>>> main
 footer {
   background: #f3f3f3;
 }
@@ -182,11 +228,19 @@ footer {
   width: 100%;
   margin: 0 auto;
   color: #666;
+<<<<<<< HEAD
+  padding-top: 30px;
+=======
   /* height: 400px; */
+>>>>>>> main
 }
 .footer_itemBox1 {
   width: 100%;
   padding-bottom: 40px;
+<<<<<<< HEAD
+  padding-left: 2%;
+=======
+>>>>>>> main
   border-bottom: 1px solid #a7a7a7;
 }
 .footer_itemBox1 img {
@@ -196,15 +250,29 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
+  padding-left: 2%;
+=======
+>>>>>>> main
 }
 .footer_itemBox2 .footer_item1 {
   padding-top: 30px;
 }
 .footer_itemBox2 .footer_item2 {
+<<<<<<< HEAD
+  padding: 20px 2% 20px 0;
+  display: flex;
+  gap: 30px;
+}
+.footer_itemBox2 .footer_item2 img:nth-child(1) {
+  border-radius: 20px;
+}
+=======
   padding: 20px 0;
   display: flex;
   gap: 30px;
 }
+>>>>>>> main
 @media screen and (max-width: 1440px) {
   .container {
     width: 90%;
